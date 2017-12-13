@@ -1,0 +1,579 @@
+body{
+    width:100%;
+    height:955px;
+    background-color:#333;
+    font-family:Arial;
+    color:white;
+}
+
+header{
+    width:100%;
+    height:auto;
+}
+
+header img{
+    width:100%;
+    height:auto;
+}
+
+.wrapper{
+    width:90%;
+    margin:auto;
+}
+
+#head{
+    width:100%;
+    height:auto;
+    margin-top:-4px;
+    background-color:#333;
+}
+
+section{
+    width:90%;
+    margin:auto;
+}
+
+.loginBox a{
+    color:white;
+}
+
+.about h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:42px;
+    text-decoration: underline;
+    text-decoration-color: #4CAF05;
+}
+
+.topnav p{
+    float:left;
+    font-family: 'Grand Hotel', cursive;
+    font-size:22px;
+    text-align: center;
+    padding:15px;
+    display:block;
+    text-decoration:underline;
+    text-decoration-color: #4CAF50;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:42px;
+    padding-bottom:15px;
+    text-decoration:underline;
+    text-decoration-color: #4CAF50;
+}
+
+h2{
+    font-size:24px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration:underline;
+    text-decoration-color: #4CAF50;
+    margin-bottom:2%;
+}
+
+.about{
+    float:left;
+    margin:0 0 0 5%;
+    width:50%;
+}
+
+.about p{
+    text-align: justify;
+}
+
+.aside{
+    float:right;
+    width:35%;
+    margin:0;
+}
+
+.aside p{
+    margin-top:5px;
+}
+
+.aside a{
+    color:white;
+}
+
+.aside a:hover{
+    color:#4CAF50;
+}
+
+#secondh2{
+    padding-top:10px;
+}
+
+p{
+    color:white;
+    font-family:Arial;
+}
+
+#list{
+    margin-top:5px;
+}
+
+.aside li{
+    list-style: none;
+}
+
+.aside li a{
+    color:white;
+    text-decoration: none;
+}
+
+.aside li a:hover{
+    text-decoration: underline;
+    text-decoration-color:#4CAF50;
+}
+
+strong{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+label a{
+    color:white;
+}
+
+label a:hover{
+    color:#4CAF50;
+}
+
+#signup{
+    margin:1% 0 0 2%;
+}
+
+#signup a{
+    color:white;
+}
+
+#signup a:hover{
+    color:#4CAF50;
+}
+
+button a{
+    color:black;
+    text-decoration: none;
+}
+
+/*Menu for the site*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:Arial;
+}
+
+.topnav a:hover:not(.active){
+    background-color:#4CAF50;
+    border-bottom: 3px solid #4CAF50;
+}
+
+.topnav a.active{
+    border-bottom:3px solid #4CAF50;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#login{
+    float:right;
+}
+
+#logout{
+    float:right;
+}
+
+/*Recipe CSS*/
+
+.left{
+    float:left;
+    width:20%;
+    margin:2% 0 0 0;
+}
+
+.middle{
+    float:left;
+    width:40%;
+    margin:2% 5% 0 5%;
+}
+
+.right{
+    float:right;
+    width:30%;
+    margin:2% 0 0 0;
+}
+
+.left li{
+    list-style:none;
+    padding:0 0 3% 0;
+}
+
+.recipeImage{
+    width:100%;
+    height:auto;
+}
+
+ol{
+    list-style-type:decimal;
+}
+
+ol li{
+    padding-top:10px;
+    text-align: justify;
+}
+
+.comment-box{
+    border:1px solid #4CAF05;
+    padding:2% 0 2% 2%;
+}
+
+.comment h2{
+    margin-bottom:-2%;
+}
+
+#commentUser{
+    padding:2% 0 0 0;
+}
+
+.commentbutton {
+    margin-bottom: 10px;
+    border: solid 1px;
+    border-color: black;
+}
+
+.deletebutton{
+    width: auto;
+    margin-top: 5px;
+    border-radius: 7px 7px 7px 7px;
+    padding: 10px;
+    background: #f44336;
+    border: solid 1px black;
+    margin-right: 5px;
+}
+
+.comments textarea {
+    margin-bottom: 2%;
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.commented-by{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
+    margin-bottom:-3%;
+}
+
+.comments h3{
+    font-weight: bold;
+}
+
+/*Calendar CSS*/
+
+#calendar {
+    width: 100%;
+}
+
+#calendar a {
+    color: #8e352e;
+    text-decoration: none;
+}
+
+#calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#calendar li {
+    display: block;
+    float: left;
+    width:14.342%;
+    padding: 5px;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+    height: 40px;
+    background: #4CAF50;
+}
+
+#calendar ul.weekdays li {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: none !important;
+    padding: 10px 6px;
+    color: #fff;
+    font-size: 13px;
+}
+
+#calendar .days li {
+    height: 100px   ;
+}
+
+#calendar .days li:hover {
+    background: #4CAF50;
+}
+
+#calendar .date {
+    text-align: center;
+    margin-top:5px;
+    padding: 4px;
+    background: #333;
+    color: #fff;
+    width: 20px;
+    border-radius: 50%;
+    float: right;
+}
+
+#calendar .event {
+    clear: both;
+    display: block;
+    width:50%;
+    margin:auto;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -40px;
+    margin-bottom: 5px;
+    line-height: 14px;
+    background: #e4f2f2;
+    border: 1px solid #b5dbdc;
+}
+
+#calendar .event-desc {
+    color: #666;
+    text-decoration: none;
+}
+
+#calendar .other-month {
+    background: #f5f5f5;
+    color: #666;
+}
+
+.imageCalendar{
+    width:100%;
+}
+
+#calendar-wrap h2{
+    margin-bottom:10px;
+}
+
+
+@media(max-device-width:1366px){
+
+    section{
+        width:100%;
+        margin:auto;
+    }
+
+    .about{
+        margin:0;
+        width:60%;
+    }
+
+    .button{
+        background-color:white;
+    }
+
+    /*Menu*/
+    .topnav p{
+        display:none;
+    }
+
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav h1{
+        display:none;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #login{
+        float:none;
+    }
+
+    #logout{
+        float:none;
+    }
+
+    /*Recipe CSS*/
+
+    .submit{
+        background-color:#f0f0f0;
+    }
+
+    .left h2, .middle h2, .right h2{
+        padding-bottom:10px;
+    }
+
+    .deletebtn{
+        background-color:white;
+    }
+
+    /*Calendar CSS*/
+
+    #calendar .event{
+        width:50%;
+        margin-top:-10px;
+        margin-left:10px;
+    }
+}
+
+@media (max-device-width:600px){
+
+    .about{
+        float:none;
+        width:90%;
+        margin:0;
+
+    }
+
+    .aside{
+        width:100%;
+        float:none;
+    }
+
+    /*Recipe CSS*/
+
+    section{
+        width:100%;
+    }
+
+    .recipeImage{
+        width:90%;
+        margin:auto;
+    }
+
+    .left{
+        float:none;
+        width:90%;
+        margin:0;
+    }
+
+    .middle{
+        float:none;
+        width:90%;
+        margin:0;
+    }
+
+    .right{
+        float:none;
+        width:90%;
+        margin:0;
+    }
+
+    .left li{
+        padding:1% 0 0 0;
+    }
+
+    .left h2, .middle h2, .right h2{
+        margin:2% 0 0 0;
+    }
+
+    .commentText{
+        width:72%;
+    }
+}
+
+@media (max-device-width:1024px){
+    .commentText{
+        width:64%;
+    }
+}
+
+@media (max-device-width:768px){
+    .left{
+        width:100%;
+    }
+
+    .middle{
+        width:95%;
+        float:none;
+    }
+
+    .middle h2{
+        margin-left:-32px;
+    }
+
+    .right{
+        float:none;
+        width:100%;
+    }
+
+    .name{
+        width:55.5%;
+    }
+
+    /*Calendar CSS*/
+
+    #calendar .weekdays, #calendar .other-month {
+        display: none;
+    }
+
+    #calendar .event{
+        width:30%;
+        margin-top:10px;
+    }
+
+    #calendar li {
+        height: auto !important;
+        border: 1px solid #ededed;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: -1px;
+    }
+
+    #calendar .date {
+        float: none;
+    }
+
+}
+
+@media (max-device-width:480px){
+
+    section h1, .left, .middle, .right{
+        margin:auto;
+    }
+
+    section h1{
+        margin-bottom:2%;
+    }
+}
