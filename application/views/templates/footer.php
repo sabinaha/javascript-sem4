@@ -1,17 +1,7 @@
+            <p id="username" hidden=""><?php echo $this->session->userdata('username'); ?></p>
 
-		<script>
-			//Get the modal
-			var modal = document.getElementById('id01');
-
-			//When the user clocks anywhere outside of the modal, close it.
-			window.onclick = function(event){
-				if(event.target == modal){
-					modal.style.display = "none";
-				}
-			}
-		</script>
-
-		</div>
-
+            <script type="text/javascript" src="<?php echo asset_url(); ?>js/jqueryAjax.js"></script>
+            <script type="text/javascript" src="<?php echo asset_url(); ?>js/loginModal.js"></script>
+        </div>
 	</body>
 </html>

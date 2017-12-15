@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8888/tasty';
-#$config['base_url'] = 'http://130.229.165.5:8888/tasty';
+#$config['base_url'] = 'http://localhost:8888/tasty-js';
+$config['base_url'] = 'http://130.229.141.40:8888/tasty-js';
 
 /*
 |--------------------------------------------------------------------------
